@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>My Docs</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Courses & Certificates - My Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">My Docs</a>
+                <a class="navbar-brand" href="..">My Docs</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,14 +33,14 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Welcome to My-website</a>
+                            </li>
                             <li class="navitem active">
-                                <a href="." class="nav-link">Welcome to My-website</a>
+                                <a href="./" class="nav-link">Courses & Certificates</a>
                             </li>
                             <li class="navitem">
-                                <a href="education/" class="nav-link">Courses & Certificates</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="ist/" class="nav-link">1. Heading 1</a>
+                                <a href="../ist/" class="nav-link">1. Heading 1</a>
                             </li>
                         </ul>
 
@@ -51,12 +51,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="education/" class="nav-link">
+                                <a rel="next" href="../ist/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -78,13 +78,38 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-my-website" class="nav-link">Welcome to My-website</a>
+            <li class="nav-item" data-level="1"><a href="#courses-certificates" class="nav-link">Courses &amp; Certificates</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#commands" class="nav-link">Commands</a>
+            <li class="nav-item" data-level="2"><a href="#deeplearningai-tensorflow-developer" class="nav-link">DeepLearning.AI TensorFlow Developer :</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+            <li class="nav-item" data-level="2"><a href="#machine-learning" class="nav-link">Machine Learning :</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#python-for-everybody-specialization" class="nav-link">Python for Everybody Specialization :</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#skills" class="nav-link">Skills</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#programming-languages" class="nav-link">Programming Languages:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#librares" class="nav-link">Librares :</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#communication" class="nav-link">Communication:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#others" class="nav-link">Others:</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -95,21 +120,33 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-my-website">Welcome to My-website</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h1 id="courses-certificates">Courses &amp; Certificates</h1>
+<blockquote>
+<h2 id="deeplearningai-tensorflow-developer">DeepLearning.AI TensorFlow Developer :</h2>
+<h3 id="deeplearningai-on-coursera"><em>(DeepLearning.AI on Coursera)</em></h3>
+</blockquote>
+<p>From this Specialization, I have learned how to build and train neural networks using TensorFlow, how to improve network performance using convolutions as we train it to identify real-world images, how to teach machines to understand, analyze, and respond to human speech with natural language processing systems, and more, as these and other TensorFlow concepts are going to be at the forefront of the coming transformation to an AI-powered future.</p>
+<blockquote>
+<h2 id="machine-learning">Machine Learning :</h2>
+<h3 id="stanford-university-on-coursera"><em>(Stanford University on coursera)</em></h3>
+</blockquote>
+<p>This course builds the basics of the machine learning.</p>
+<blockquote>
+<h2 id="python-for-everybody-specialization">Python for Everybody Specialization :</h2>
+<h3 id="university-of-michigan-on-coursera"><em>(University of Michigan on coursera)</em></h3>
+</blockquote>
+<p>This Specialization builds on the success of the Python for Everybody course and will introduce fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language.</p>
+<h1 id="skills">Skills</h1>
+<blockquote>
+<h2 id="programming-languages">Programming Languages:</h2>
+<p>C, Python</p>
+<h2 id="librares">Librares :</h2>
+<p>Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn, Tensorflow, Keras</p>
+<h2 id="communication">Communication:</h2>
+<p>English, Urdu, Kashmiri</p>
+<h2 id="others">Others:</h2>
+<p>DataScience, Arduino, LaTex , Markdown</p>
+</blockquote></div>
             </div>
         </div>
 
@@ -118,11 +155,11 @@ docs/
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -187,8 +224,3 @@ docs/
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.3
-Build Date UTC : 2022-02-20 10:45:03.128097+00:00
--->
