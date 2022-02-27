@@ -1,21 +1,30 @@
+title{
+    text-align: end;
+}
 body {
     background-color: rgb(1, 99, 70);
     color: rgb(180, 135, 135);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif ;
     font-style: italic;
     font-size: medium;
+    border: 2px solid powderblue
 }
-  h1 {
+h1 {
     color:lightblue;
+    font-family: 'Source Sans Pro', sans-serif ;
     font-style: normal;
-    border: 2px solid powderblue;
+    text-align: center
+    ;
   }
-  h2 {
+h2 {
     color:lightblue;
     font-style: normal;
   }
-  h3 {
+h3 {
     color:lightblue;
     font-style: normal;
+    }
 
-  }
+   
+
+
