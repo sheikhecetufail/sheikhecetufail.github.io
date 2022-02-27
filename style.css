@@ -1,0 +1,9 @@
+.social-icon {
+    color:rgba(4, 159, 248, 0.667);
+    transition: color 0.2s;
+    text-align: end;
+  }
+
+  .social-icon:hover{
+      color:black
+  }
