@@ -3,10 +3,12 @@ body {
     color: rgb(180, 135, 135);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
+    font-size: medium;
 }
   h1 {
     color:lightblue;
     font-style: normal;
+    border: 2px solid powderblue;
   }
   h2 {
     color:lightblue;
@@ -15,4 +17,5 @@ body {
   h3 {
     color:lightblue;
     font-style: normal;
+
   }
