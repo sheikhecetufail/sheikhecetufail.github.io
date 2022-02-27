@@ -13,7 +13,8 @@ h1 {
     color:lightblue;
     font-family: 'Source Sans Pro', sans-serif ;
     font-style: normal;
-    text-align: center
+    text-align: center;
+    font-size: larger
     ;
   }
 h2 {
@@ -24,7 +25,10 @@ h3 {
     color:lightblue;
     font-style: normal;
     }
+p {color:rgb(241, 214, 92);
+    font-style: normal
 
+}
    
 
 
