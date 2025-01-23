@@ -4,9 +4,16 @@ layout: post
 ---
 
 
-I am Research Scholar at [MedImg Lab][MedImg], [IIT - Delhi][IIT-D], working under the supervision of [Prof. Anup Singh][ASir]. 
+I am Research Scholar at [MedImg Lab][MedImg], [IIT - Delhi][IIT-D], working under the supervision of [Prof. Anup Singh][ASir]. I have done B.Tech (Electronics & Communication) and  M.Tech (Communication & Information Technology) from NIT Srinagar.
 
-Website u Der construction!!!
+Website under construction!!!
+
+---
+title: "Research Experience"
+layout:post
+---
+
+Research intern at ScAI, IITD under Prof. Anurag Rathore
 
 ![Author](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
 
