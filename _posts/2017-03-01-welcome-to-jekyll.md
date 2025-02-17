@@ -6,6 +6,8 @@ layout: post
 
 I am Research Scholar at [MedImg Lab][MedImg], [IIT - Delhi][IIT-D], working under the supervision of [Prof. Anup Singh][ASir]. I have done B.Tech (Electronics & Communication) and  M.Tech (Communication & Information Technology) from NIT Srinagar.
 
+For publications, check [Google Scholar Profile][GP]
+
 Website under construction!!!
 
 ---
@@ -42,3 +44,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [MedImg]: https://cbme.iitd.ac.in/research_faculty/8
 [IIT-D]: https://home.iitd.ac.in/
 [ASir]: https://cbme.iitd.ac.in/faculty-profile/1
+
+
+[GP]: https://scholar.google.com/citations?hl=en&user=_rGz0SkAAAAJ
