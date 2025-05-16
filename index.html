@@ -18,16 +18,19 @@
     .right-column {
       flex: 1;
       min-width: 250px;
+      max-height: 300px;
+      overflow-y: auto;
       background-color: #0d1117;
       padding: 20px;
       border-left: 1px solid #30363d;
     }
     .news-item {
       background-color: #161b22;
-      padding: 15px;
-      margin-bottom: 15px;
+      padding: 10px;
+      margin-bottom: 10px;
       border-left: 4px solid #58a6ff;
       transition: all 0.3s ease;
+      font-size: 0.85em;
     }
     .news-item:hover {
       background-color: #1f2933;
@@ -35,7 +38,7 @@
     }
     .news-date {
       color: #8b949e;
-      font-size: 0.9em;
+      font-size: 0.8em;
       margin-bottom: 4px;
     }
     .news-title {
@@ -76,7 +79,7 @@
     </div>
 
     <div class="right-column">
-    <h2>Latest News</h2>
+    <h3>Latest News</h3>
     <div class="news-item">
       <div class="news-date">Jan 2025</div>
       Journal Paper is accepted in <em>Magnetic Resonance Imaging (Co-author)</em>.
@@ -89,7 +92,14 @@
       <div class="news-date">July 2023</div>
       Joined IIT-Delhi as a Research Scholar.
     </div>
-
+              <div class="news-item">
+      <div class="news-date">Jan 2023</div>
+      Joined IIT-Delhi as a Research Intern
+    </div>
+   <div class="news-item">
+      <div class="news-date">July 2021</div>
+      Joined NIT-Srinagar as an MTech student 
+    </div>
   </main>
 
   <footer>
