@@ -6,6 +6,18 @@
   <title>Mohammad Tufail Sheikh</title>
   <link rel="stylesheet" href="assets/style.css" />
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
     .main-flex {
       display: flex;
       flex-wrap: wrap;
@@ -18,7 +30,7 @@
     .right-column {
       flex: 1;
       min-width: 250px;
-      max-height: 200px;
+      max-height: 300px;
       overflow-y: auto;
       background-color: #0d1117;
       padding: 20px;
@@ -77,7 +89,6 @@
         Feel free to browse my publications and projects, or download my <a href="assets/CV.pdf" target="_blank">CV</a>.
       </p>
     </div>
-
     <div class="right-column">
     <h3>Updates</h3>
     <div class="news-item">
